@@ -1,9 +1,12 @@
-body{
-	font-family: Helvetica;
-}
-h2{
-	font-family: Helvetica;
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+h2, h1,{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	line-height: 1.5em;
+	margin:2em;
 }
 nav{
-	font-family: Helvetica;
+	font-family: 'Open Sans', sans-serif;
 }
