@@ -9,14 +9,12 @@ body{
 }
 nav{
 	font-family: 'Open Sans', sans-serif;
-}
-header{
-    background-color: blue;
+    background-color: green;
     border: 1px black solid;
     padding: 20px;
 }
-nav{
-    background-color: green;
+header{
+    background-color: blue;
     border: 1px black solid;
     padding: 20px;
 }
