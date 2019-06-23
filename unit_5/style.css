@@ -10,8 +10,27 @@ body{
 nav{
 	font-family: 'Open Sans', sans-serif;
 }
-header {
+header{
     background-color: blue;
+    border: 1px black solid;
+    padding: 20px;
+}
+nav{
+    background-color: green;
+    border: 1px black solid;
+    padding: 20px;
+}
+img {
+	  display: block;
+  	margin: 0 auto;
+}
+#design_a{
+	background-color: blue;
+    border: 1px black solid;
+    padding: 20px;
+}
+footer {
+	background-color: grey;
     border: 1px black solid;
     padding: 20px;
 }
