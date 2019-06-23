@@ -10,3 +10,8 @@ body{
 nav{
 	font-family: 'Open Sans', sans-serif;
 }
+header {
+    background-color: blue;
+    border: 1px black solid;
+    padding: 20px;
+}
