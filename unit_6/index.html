@@ -5,15 +5,15 @@
 </head>
 <body>
 	<header>
-	<img src="redbyjo.jpg">
+	<img id="logo" src="redbyjo.jpg">
 	</header> 
 		<nav>
 			<div>
-				<a href="">Home</a>
-				<a href="">Story</a>
-				<a href="">Design</a>
-				<a href="">Blog</a>
-				<a href="">Contact</a>
+				<a href="index.html">Home</a>
+				<a href="story.html">Story</a>
+				<a href="desgin.html">Design</a>
+				<a href="blog.html">Blog</a>
+				<a href="contact.html">Contact</a>
 			</div>
 		</nav>
 		<nav>
@@ -23,14 +23,15 @@
 				<a href="">SEW CRAFT CREATE - BEGINNERS PROJECTS</a>
 			</div>
 		</nav>
-		<section>
-		<img src="coverphoto.jpg"
-		</section>
+		<section id="hero">
+		<img src="coverphoto.jpg">
+		<div>
 		<h2>WHAT'S NEW</h2>
 		<p>Handmade Simple Designs</p>
-	</header>
+		</div>
+		</section>
 <main>
-<div id="materials">
+<div id="materials" class="clearfix">
 	<figure>
 		<img src="Materials.jpg">
 	</figure>
@@ -40,8 +41,9 @@
 		<a href="">EXPLORE DESIGNS</a>
 	</figcaption>
 </div>
-<div id="design_a">
+<section id="designcontainer" class="clearfix">
 	<h2>NEW & NOTEWORTHY</h2>
+<div class="design">
 	<figure>
 		<img src="totebag1.jpg">
 	</figure>
@@ -50,7 +52,7 @@
 	</figcaption>
 	</figure>
 </div>
-<div id="design_b">
+<div class="design">
 	<figure>
 		<img src="totebag2.jpg">
 	</figure>
@@ -59,7 +61,7 @@
 	</figcaption>
 	</figure>
 </div>
-<div id="design_c">
+<div class="design">
 	<figure>
 		<img src="totebag3.jpg">
 		<figcaption>
@@ -67,6 +69,7 @@
 	</figcaption>
 	</figure>
 </div>
+</section>
 </main>
 </body>
 <footer>

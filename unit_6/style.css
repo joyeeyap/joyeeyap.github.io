@@ -1,11 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
     font-family: 'Open Sans', sans-serif;
     font-size: 12px;
     line-height: 1.5em;
-    margin:2em;
 }
+
 nav{
     font-family: 'Open Sans', sans-serif;
     background-color: green;
@@ -19,12 +25,44 @@ header{
 }
 img {
       display: block;
-    margin: 0 auto;
+      width: 100%;
 }
-#design_a{
-    background-color: blue;
-    border: 1px black solid;
+
+.design {
+    width: 33.33%;
+    float: left;
     padding: 20px;
+}
+
+#hero {
+    position: relative;
+}
+
+#hero div {
+    position: absolute;
+    left: 20%;
+    top: 20%;
+}
+
+#designcontainer h2 {
+   display: block;
+   width: 100%; 
+   padding: 20px;
+}
+
+#materials figure{
+width: 30%;
+float: left;
+}
+
+#materials figcaption{
+    width: 70%;
+    float:left;
+}
+
+#logo{
+    max-width: 150px;
+    margin: 0 auto;
 }
 
 #two_column {
