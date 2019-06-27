@@ -12,15 +12,24 @@ body{
     line-height: 1.5em;
 }
 
-nav{
-    font-family: 'Open Sans', sans-serif;
-    background-color: green;
-    border: 1px black solid;
+a:hover {
+    background-color: #F2800D;
+}
+
+a {
+    background-color: #28B5B0;
+    color: white;
+    text-decoration: none;
+    display: block;
+    float: left;
     padding: 20px;
 }
+
+nav{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #28B5B0;
+}
 header{
-    background-color: blue;
-    border: 1px black solid;
     padding: 20px;
 }
 img {
@@ -34,13 +43,20 @@ img {
     padding: 20px;
 }
 
+.design p {
+    padding: 5px;
+}
+
 #hero {
     position: relative;
+    max-width: 600px;
+    padding: 20px;
+    margin: auto;
 }
 
 #hero div {
     position: absolute;
-    left: 20%;
+    left: 10%;
     top: 20%;
 }
 
@@ -58,6 +74,7 @@ float: left;
 #materials figcaption{
     width: 70%;
     float:left;
+    padding-left: 20px;
 }
 
 #logo{
@@ -87,6 +104,11 @@ float: right;
 width: 62%;
 }
 
+h2,p {
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
 .clearfix:after {
     visibility: hidden;
     display: block;
@@ -96,9 +118,16 @@ width: 62%;
     height: 0;
 }
 
+.column {
+    width: 260px;
+    height: 300px;
+    padding: 20px;
+    margin: 0;
+    float: left;
+}
 
 footer {
-    background-color: grey;
-    border: 1px black solid;
+    background-color: black;
+    color: white;
     padding: 20px;
 }
