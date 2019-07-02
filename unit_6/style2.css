@@ -9,17 +9,43 @@
 }
 
 #nav {
-	float: left;
+	float:left;
 	padding: 20px;
-	display: block;
+}
+
+#facebook {
+	float: left;
+	max-width: 2%;
+	padding: 20px;
+}
+
+#instagram {
+	float: left;
+	max-width: 2%;
+	padding: 20px;
 }
 
 #nav a {
 	padding: 20px;
-	color: orange;
+	color: grey;
+}
+
+a { 
+text-decoration: none;
+display: block;
+float: left;
+color: orange;
 }
 
 a:hover {
-    background-color: #F2800D;
-    color: white;
+    color: black;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
 }

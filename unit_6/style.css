@@ -30,14 +30,10 @@ nav{
     background-color: #28B5B0;
 }
 
-#nav_final p{
-    color: white;
-    background-color: black;
-}
-
 header{
     padding: 20px;
 }
+
 img {
       display: block;
       width: 100%;
@@ -55,9 +51,12 @@ img {
 
 #hero {
     position: relative;
-    max-width: 600px;
-    padding: 20px;
     margin: auto;
+}
+
+#nav_final {
+    background-color: black;
+    color: white;
 }
 
 #hero div {
@@ -84,7 +83,7 @@ float: left;
 }
 
 #logo{
-    max-width: 150px;
+    max-width: 200px;
     margin: 0 auto;
 }
 
