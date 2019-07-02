@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#logo {
+	float: left;
+}
+
+#nav {
+	float: left;
+	padding: 20px;
+	display: block;
+}
+
+#nav a {
+	padding: 20px;
+	color: orange;
+}
+
+a:hover {
+    background-color: #F2800D;
+    color: white;
+}

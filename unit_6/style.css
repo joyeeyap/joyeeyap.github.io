@@ -29,6 +29,12 @@ nav{
     font-family: 'Open Sans', sans-serif;
     background-color: #28B5B0;
 }
+
+#nav_final p{
+    color: white;
+    background-color: black;
+}
+
 header{
     padding: 20px;
 }
@@ -124,10 +130,4 @@ h2,p {
     padding: 20px;
     margin: 0;
     float: left;
-}
-
-footer {
-    background-color: black;
-    color: white;
-    padding: 20px;
 }
