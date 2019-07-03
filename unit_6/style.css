@@ -43,6 +43,20 @@ img {
     width: 33.33%;
     float: left;
     padding: 20px;
+    position: relative;
+}
+
+.design figcaption {
+    position: absolute;
+    left: 10%;
+    top: 10%;
+}
+
+#box {
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+    background-color: grey;
 }
 
 .design p {

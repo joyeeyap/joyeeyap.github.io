@@ -10,24 +10,37 @@
 
 #nav {
 	float:left;
+	width:calc(100% - 200px);
 	padding: 20px;
 }
 
 #facebook {
-	float: left;
-	max-width: 2%;
-	padding: 20px;
+	width: 30px;
+	margin-top: 1px;
+	float: right;
 }
 
 #instagram {
-	float: left;
-	max-width: 2%;
-	padding: 20px;
+	margin-top: 5px;
+	width: 40px;
+	float: right;
+}
+
+img {
+      display: block;
+      width: 100%;
 }
 
 #nav a {
 	padding: 20px;
 	color: grey;
+}
+
+#box {
+    width: 30%;
+    height: 0;
+    padding-bottom: 30%;
+    background-color: grey;
 }
 
 a { 
@@ -37,8 +50,14 @@ float: left;
 color: orange;
 }
 
-a:hover {
+#nav a:hover {
     color: black;
+}
+
+#designcontainer h2 {
+   display: block;
+   width: 100%; 
+   padding: 20px;
 }
 
 .clearfix:after {
