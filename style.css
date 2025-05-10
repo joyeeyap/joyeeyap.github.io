@@ -1149,3 +1149,41 @@ section {
   border: 0;
 }
     
+/*STUDY CONTAINERS*/
+.study-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 20px;
+}
+
+.study-text, .study-iframe {
+  flex: 1 1 45%;
+  min-width: 300px;
+}
+
+/* Make iframe responsive */
+.study-iframe iframe {
+  width: 100%;
+  height: 300px;
+  border: 0;
+}
+
+/* Responsive layout for small screens */
+@media (max-width: 768px) {
+  .study-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .study-text, .study-iframe {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+
+  .study-iframe iframe {
+    height: 240px;
+  }
+}
