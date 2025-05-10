@@ -1133,22 +1133,3 @@ section {
 
     
     
-/*PPT*/
-
-    .ppt-preview {
-  text-align: center;
-  margin: 20px 0;
-}
-
-.ppt-thumb {
-  width: 200px;
-  cursor: pointer;
-  transition: transform 0.2s ease;
-  border: 2px solid #ccc;
-  border-radius: 8px;
-}
-
-.ppt-thumb:hover {
-  transform: scale(1.05);
-  border-color: #007bff;
-}
