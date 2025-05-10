@@ -381,6 +381,19 @@ p {
     text-align: center;
     font-weight: bold;
   }
+
+@media (max-width: 768px) {
+  .about-containers {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .details-container {
+    width: 90%;
+    max-width: none;
+  }
+}
+
   @media(max-width:470px){
     .right1, .left1{
         margin-top: -15px;
