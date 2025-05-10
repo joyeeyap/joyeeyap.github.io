@@ -382,6 +382,20 @@ p {
     font-weight: bold;
   }
 
+.experience-details-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px; /* space between cards */
+}
+
+/* Default card style */
+.details-container {
+  flex: 1 1 30%; /* Try to take up 30% of the row, but be flexible */
+  min-width: 250px;
+  max-width: 300px;
+}
+
 @media (max-width: 768px) {
   .about-containers {
     flex-direction: column;
@@ -583,6 +597,8 @@ section {
   justify-content: center;
   flex-direction: column;
 }
+
+
 
 .about-containers {
   gap: 2rem;
